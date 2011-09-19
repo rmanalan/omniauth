@@ -3,6 +3,7 @@ require 'omniauth/core'
 module OmniAuth
   module Strategies
     autoload :OAuth,              'omniauth/strategies/oauth'
+    autoload :Atlassian,          'omniauth/strategies/oauth/atlassian'
     autoload :Blogger,            'omniauth/strategies/oauth/blogger'
     autoload :Dopplr,             'omniauth/strategies/oauth/dopplr'
     autoload :Douban,             'omniauth/strategies/oauth/douban'
